@@ -56,7 +56,7 @@ var breedsImg
 request.onload = function (breeds) {
     var spinner = '<div class="uk-alert-primary" uk-alert><a class="uk-alert-close" uk-close></a><p>Aguarde enquanto carregamos os dados.</p></div><span class="loading" uk-spinner="ratio: 4.5"></span>'
     UIkit.modal.dialog(spinner)
-    setTimeout(function () { UIkit.modal.dialog().hide() }, 1500);
+    setTimeout(function () { UIkit.modal.dialog(spinner).hide() }, 1500);
 
     var breeds = (request.response).message;
     breedsImg = breeds
