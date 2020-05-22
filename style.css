@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Major+Mono+Display&family=Bangers&family=Dancing+Script:wght@500&family=Indie+Flower:wght@200&family=Roboto:wght@300&display=swap');
+
+.amatic {
+    font-size: 32px;
+    font-family: 'Amatic SC', cursive;
+}
+.bangers {
+    font-size: 32px;
+    font-family: 'Bangers', cursive;
+}
+.dancing {
+    font-size: 32px;
+    font-family: 'Dancing Script', cursive;
+}
+.oswald {
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+.major {
+    font-size: 32px;
+    font-family: 'Major Mono Display', sans-serif;
+}
+body{
+    background-color: rgb(12, 114, 161);
+    font: 15pt Calibri;
+    height: 100%;
+}
+header{
+    text-align: center;
+    color: #000;
+    background: #fff;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+
+}
+section{
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.534);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.322);
+    text-align: center;
+
+}
+.loading{
+    position: relative;
+    top: 50%;
+    left: 40%;
+}
+
+.GroupBnt{
+    max-width: 100%;
+}
+h2 {
+    font-size: xx-large;
+    margin: 0px;
+}
+
+@media only screen and (max-device-width: 736px){
+    .GroupBnt input{
+        width: 100%;
+        margin: 0 0 5px 0;
+    }
+    .uk-width-1-2 {
+        width: 100% !important;
+    }
+    .uk-margin{
+        margin: 10px;
+    }
+}
+
