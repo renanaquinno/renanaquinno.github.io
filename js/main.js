@@ -19,6 +19,7 @@ function checkList() {
     var nameYourDog = getDados("nameYourDog")
     var selectFont = getDados("selectFont")
     var selectColor = getDados("selectColor")
+    
 
     if (breedname == 'nulo') {
         var info = "Selecione a Raça do Dog"
@@ -99,7 +100,7 @@ getElements("select").onclick = function () {
 
         save.disabled = false
         edit.disabled = false
-        view.value = "Vizualizar / Nova Foto"
+        view.value = "Visualizar / Nova Foto"
 
         if (breedname.length > 1) {
             subBreeds = 1
@@ -148,8 +149,6 @@ getElements("select").onclick = function () {
     }
 
 }
-
-
 
 
 getElements("edit").onclick = function () {
