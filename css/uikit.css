@@ -1994,8 +1994,8 @@ select.uk-form-width-xsmall {
 .uk-button-secondary:disabled,
 .uk-button-danger:disabled {
   background-color: transparent;
-  color: #999;
-  border-color: #e5e5e5;
+  color: #c4c4c4;
+  border-color: #c4c4c4;
 }
 /* Size modifiers
  ========================================================================== */
@@ -3696,31 +3696,7 @@ select.uk-form-width-xsmall {
 .uk-search-default .uk-search-icon-flip ~ .uk-search-input {
   padding-right: 40px;
 }
-/* Navbar modifier
- ========================================================================== */
-.uk-search-navbar {
-  width: 400px;
-}
-/*
- * Input
- */
-.uk-search-navbar .uk-search-input {
-  height: 40px;
-  background: transparent;
-  font-size: 1.5rem;
-}
-/*
- * Icon
- */
-.uk-search-navbar .uk-search-icon {
-  width: 40px;
-}
-.uk-search-navbar .uk-search-icon:not(.uk-search-icon-flip) ~ .uk-search-input {
-  padding-left: 40px;
-}
-.uk-search-navbar .uk-search-icon-flip ~ .uk-search-input {
-  padding-right: 40px;
-}
+
 /* Large modifier
  ========================================================================== */
 .uk-search-large {
@@ -3746,11 +3722,7 @@ select.uk-form-width-xsmall {
 .uk-search-large .uk-search-icon-flip ~ .uk-search-input {
   padding-right: 80px;
 }
-/* Toggle
- ========================================================================== */
-.uk-search-toggle {
-  color: #999;
-}
+
 /* Hover + Focus */
 .uk-search-toggle:hover,
 .uk-search-toggle:focus {
