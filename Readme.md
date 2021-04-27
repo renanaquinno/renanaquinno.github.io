@@ -1,5 +1,5 @@
 Teste de Front-End Challenge-Two with Dog-API
-Caso queira executar localmente em sua máquina, basta apenas fazer o download em zip e abrir o index.html, não necessita de instalações ou configurações, pois foi feito em JavaScrip puro, sem frameworks (Vue.js, React...) foi utilizado apenas um framework CSS, UIkit.
+Caso queira executar localmente em sua máquina, basta apenas fazer o download em zip e abrir o index.html, não necessita de instalações ou configurações, pois foi feito em JavaScript puro, sem frameworks (Vue.js, React...) foi utilizado apenas um framework CSS, UIkit.
 
 O programa consiste em uma API, que nos trás todas as raças de cachorros, que estão cadastrados em Dog API, e que ao selecionar um nome, é sorteado uma foto entre dezenas, da raça correspondente, onde junto com a imagem é exibido um texto digitado pelo usuário, com formatações de Cor e Estilo de Fonte, das 5 que estão disponíveis.
 
